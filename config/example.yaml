@@ -1,0 +1,29 @@
+# Functional fixture only: 8 bars, two independent editable tracks, no game association.
+schema_version: 1
+name: platform-validation
+bpm: 120
+bars: 8
+time_signature: [4, 4]
+output: projects/validation.mid
+tracks:
+  - name: Piano validation
+    channel: 0
+    bank: 0
+    program: 0
+    pan: 48
+    repeat_each_bar: true
+    bar_transpose: [0, 5, 7, 0, 0, 5, 7, 0]
+    notes:
+      - {beat: 0, pitch: 60, duration: 0.75, velocity: 60}
+      - {beat: 1, pitch: 64, duration: 0.75, velocity: 75}
+      - {beat: 2, pitch: 67, duration: 0.75, velocity: 90}
+      - {beat: 3, pitch: 64, duration: 0.6, velocity: 70}
+  - name: Strings polyphony validation
+    channel: 1
+    bank: 0
+    program: 48
+    pan: 80
+    repeat_each_bar: true
+    bar_transpose: [0, 5, 7, 0, 0, 5, 7, 0]
+    notes:
+      - {beat: 0, pitches: [48, 55, 60], duration: 3.5, velocity: 62}

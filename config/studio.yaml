@@ -1,0 +1,22 @@
+schema_version: 1
+fluidsynth_library: .tools/fluidsynth-2.6.1/fluidsynth-v2.6.1-win10-x64-cpp11/bin/libfluidsynth-3.dll
+fluidsynth_cli: .tools/fluidsynth-2.6.1/fluidsynth-v2.6.1-win10-x64-cpp11/bin/fluidsynth.exe
+ffmpeg: .tools/ffmpeg/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe
+ffprobe: .tools/ffmpeg/ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe
+default_soundfont: timgm6mb
+soundfonts:
+  - id: timgm6mb
+    format: sf2
+    path: soundfonts/TimGM6mb.sf2
+    author: Tim Brechbill; David Bolton
+    license: GPL-2.0-only
+    license_file: docs/evidence/TimGM6mb-copyright.txt
+    source: https://deb.debian.org/debian/pool/main/t/timgm6mb-soundfont/timgm6mb-soundfont_1.3.orig.tar.gz
+    sha256: c5378b62028c920cb11e4803327983fee2f2cdff5dc89c708e39da417e51c854
+    quality_tier: small GM validation bank; replace for production quality
+generation:
+  engine: acestep-rest
+  enabled: false
+  base_url: http://127.0.0.1:8001
+  api_key_env: ACESTEP_API_KEY
+  request_timeout: 15

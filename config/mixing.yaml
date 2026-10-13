@@ -1,0 +1,9 @@
+eq:
+  - {frequency: 250, q: 0.8, gain_db: -2}
+  - {frequency: 3000, q: 1.0, gain_db: 1}
+reverb: {seconds: 0.7, wet: 0.06}
+delay: {seconds: 0.18, feedback: 0.2, wet: 0.04}
+stereo_width: 1.1
+fade_in: 0.02
+fade_out: 0.4
+peak_dbfs: -3

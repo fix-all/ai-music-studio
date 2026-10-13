@@ -1,0 +1,12 @@
+# Activate separate ACE-Step service first; this config never downloads weights.
+schema_version: 1
+prompt: "Short instrumental acoustic piano test, simple neutral notes, no vocals"
+lyrics: "[Instrumental]"
+duration: 10
+bpm: 120
+key_scale: C Major
+thinking: false
+seed: 1234
+timeout: 600
+poll_interval: 2
+output: outputs/generation-test.wav

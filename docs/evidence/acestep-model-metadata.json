@@ -1,0 +1,174 @@
+[
+  {
+    "revision": "19671f406d603126926c1b7e2adc169acbcade22",
+    "id": "ACE-Step/Ace-Step1.5",
+    "license": "mit",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 1740
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/added_tokens.json",
+        "size": 707
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/chat_template.jinja",
+        "size": 4116
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/config.json",
+        "size": 1359
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/merges.txt",
+        "size": 1671853
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/model.safetensors",
+        "size": 1191586416
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/special_tokens_map.json",
+        "size": 613
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/tokenizer.json",
+        "size": 11423705
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/tokenizer_config.json",
+        "size": 5404
+      },
+      {
+        "path": "Qwen3-Embedding-0.6B/vocab.json",
+        "size": 2776833
+      },
+      {
+        "path": "README.md",
+        "size": 5496
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/added_tokens.json",
+        "size": 2217787
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/chat_template.jinja",
+        "size": 4168
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/config.json",
+        "size": 1385
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/merges.txt",
+        "size": 1671853
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/model.safetensors",
+        "size": 3708521528
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/special_tokens_map.json",
+        "size": 1824199
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/tokenizer.json",
+        "size": 24321939
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/tokenizer_config.json",
+        "size": 14072925
+      },
+      {
+        "path": "acestep-5Hz-lm-1.7B/vocab.json",
+        "size": 2776833
+      },
+      {
+        "path": "acestep-v15-turbo/config.json",
+        "size": 1968
+      },
+      {
+        "path": "acestep-v15-turbo/configuration_acestep_v15.py",
+        "size": 13130
+      },
+      {
+        "path": "acestep-v15-turbo/model.safetensors",
+        "size": 4787825604
+      },
+      {
+        "path": "acestep-v15-turbo/modeling_acestep_v15_turbo.py",
+        "size": 96036
+      },
+      {
+        "path": "acestep-v15-turbo/silence_latent.pt",
+        "size": 3841215
+      },
+      {
+        "path": "config.json",
+        "size": 1968
+      },
+      {
+        "path": "vae/config.json",
+        "size": 425
+      },
+      {
+        "path": "vae/diffusion_pytorch_model.safetensors",
+        "size": 337431388
+      }
+    ],
+    "total_current_file_bytes": 10092102593.0
+  },
+  {
+    "revision": "148d8ea0225bdab342ee1ae3a354275ccd60ca80",
+    "id": "ACE-Step/acestep-5Hz-lm-0.6B",
+    "license": "mit",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 1628
+      },
+      {
+        "path": "README.md",
+        "size": 5498
+      },
+      {
+        "path": "added_tokens.json",
+        "size": 2217787
+      },
+      {
+        "path": "chat_template.jinja",
+        "size": 4168
+      },
+      {
+        "path": "config.json",
+        "size": 1386
+      },
+      {
+        "path": "merges.txt",
+        "size": 1671853
+      },
+      {
+        "path": "model.safetensors",
+        "size": 1325804024
+      },
+      {
+        "path": "special_tokens_map.json",
+        "size": 1824199
+      },
+      {
+        "path": "tokenizer.json",
+        "size": 24321939
+      },
+      {
+        "path": "tokenizer_config.json",
+        "size": 14072925
+      },
+      {
+        "path": "vocab.json",
+        "size": 2776833
+      }
+    ],
+    "total_current_file_bytes": 1372702240.0
+  }
+]

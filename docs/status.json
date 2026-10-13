@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project": "AI Music Studio",
+  "checked_date": "2026-10-13",
+  "record_scope": "Initial local verification snapshot, not the current runtime state of a fresh clone",
+  "evidence_distribution": "Raw reports, logs and audio remain local; public result summary is docs/validation.md",
+  "phase1": {
+    "status": "completed",
+    "minimum_acceptance_met": true,
+    "scope": "Local structured MIDI/SF2 pipeline and hardware assessment; generative deployment deferred to home RTX 3060 by user"
+  },
+  "pipelines": {
+    "structured": {
+      "status": "verified",
+      "composer": "declarative-v1",
+      "natural_language_model_deployed": false,
+      "renderer": "FluidSynth 2.6.1",
+      "soundfont": "TimGM6mb 1.3",
+      "sampled_instrument_presets": 136,
+      "midi": true,
+      "wav": true,
+      "mp3": true,
+      "flac": true,
+      "eq_reverb_delay_stereo_fades": true,
+      "peak_loudness_quality_analysis": true
+    },
+    "generative": {
+      "status": "adapter_verified_model_not_deployed",
+      "engine": "acestep-rest",
+      "upstream_release": "v0.1.8",
+      "enabled": false,
+      "real_generation_verified": false,
+      "mock_contract_verified": true,
+      "upstream_download_guard_verified": true,
+      "reason": "User plans to run on home desktop RTX 3060 12 GB; large weights not approved or downloaded",
+      "next_document": "docs/acestep-3060.md"
+    }
+  },
+  "tests": {
+    "pytest_passed": 24,
+    "pytest_failed": 0,
+    "pytest_skipped": 0,
+    "junit": "docs/evidence/pytest-complete.xml",
+    "audio_checks_passed": 16,
+    "audio_checks_total": 16,
+    "audio_summary": "outputs/validation-20261013T035322Z-f4645e/summary.json",
+    "public_summary": "docs/validation.md",
+    "playback_verification": "ffprobe and full FFmpeg decoding; human listening and physical output device unverified"
+  },
+  "artifacts": {
+    "midi": "outputs/validation-20261013T035322Z-f4645e/validation.mid",
+    "wav": "outputs/validation-20261013T035322Z-f4645e/mixed.wav",
+    "mp3": "outputs/validation-20261013T035322Z-f4645e/validation.mp3",
+    "flac": "outputs/validation-20261013T035322Z-f4645e/validation.flac"
+  },
+  "not_implemented": ["SFZ rendering", "VST3 host", "MusicXML", "built-in natural-language composition model", "real ACE-Step inference", "DAW session automation", "automatic loudness-target mastering"],
+  "initial_setup_safety_actions": {
+    "administrator_installation": false,
+    "system_environment_modified": false,
+    "large_model_downloaded": false,
+    "preexisting_user_files_overwritten": false,
+    "cloud_upload": false,
+    "git_commit_or_push": false
+  }
+}
